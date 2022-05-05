@@ -1,0 +1,68 @@
+p, h1, h2 {
+	text-align: center;
+}
+
+p {
+	margin-top: 1rem;
+}
+
+hr {
+	margin: auto;
+	width: 80%;
+}
+
+#today h2 {
+	color: #ffffff;
+	font-weight: 700;
+}
+
+#today hr {
+	color: #c22f3e;
+}
+
+#today .date {
+	background-color:#c22f3e;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+#today .info {
+	color: #000;
+	background-color:#fcecec;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #c22f3e;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.container {
+	align-content: center;
+	margin-bottom: 2%;
+}
+
+.notToday {
+	border-width: 0px;
+}
+
+.notToday h2 {
+	color: #ffffff;
+}
+
+.notToday hr {
+	color: #2e2b57;
+}
+
+.notToday .date {
+	background-color: #2e2b57;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+.notToday .info {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #2e2b57;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
